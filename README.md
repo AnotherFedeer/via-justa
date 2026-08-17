@@ -1,12 +1,12 @@
-# Vía Justa
+# Via Justa — Analisis de Documentos
 
-App para reportar precios de productos y servicios por zona, detectando posibles anomalías estadísticas. Proyecto universitario — sexto semestre, 2 estudiantes, 4 meses.
+App para analizar documentos (contratos, facturas) con OCR e IA, detectando anomalías y cláusulas problemáticas. Proyecto universitario — sexto semestre, 2 estudiantes, 4 meses.
 
 ## El dominio
 
-- `ReportePrecio` — entidad principal. Identidad: `id`.
-- `Monto` — objeto de valor (cantidad + moneda).
-- `EstadoReporte` — sellada: Borrador · Enviado · Verificado · Rechazado.
+- `DocumentoAnalizado` — entidad principal. Identidad: `id`.
+- `TextoExtraido` — objeto de valor (contenido + confianza).
+- `EstadoDocumento` — sellada: Cargado · Analizando · Analizado · ConError.
 
 Decisión: modelo escrito a mano, porque conserva mensajes de error descriptivos (`CampoInvalido`) que freezed reemplaza por genéricos.
 
