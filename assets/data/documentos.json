@@ -1,0 +1,24 @@
+[
+  {
+    "id": "doc-001",
+    "fotoUrl": "https://ejemplo.co/fotos/contrato1.jpg",
+    "creadoEn": "2026-08-10T19:05:00Z",
+    "estado": {
+      "tipo": "analizado",
+      "texto": { "contenido": "Contrato de arriendo. Cláusula 3: depósito equivalente a 3 meses de arriendo.", "confianza": 0.92 },
+      "alertas": ["Depósito mayor a 2 meses de arriendo", "Renovación automática sin previo aviso"]
+    }
+  },
+  {
+    "id": "doc-002",
+    "fotoUrl": "https://ejemplo.co/fotos/factura2.jpg",
+    "creadoEn": "2026-08-11T04:40:00Z",
+    "estado": { "tipo": "cargado", "cargadoEn": "2026-08-11T04:40:00Z" }
+  },
+  {
+    "id": "doc-003",
+    "fotoUrl": "https://ejemplo.co/fotos/contrato3.jpg",
+    "creadoEn": "2026-08-09T13:20:00Z",
+    "estado": { "tipo": "con_error", "mensaje": "No se pudo leer el texto: imagen borrosa." }
+  }
+]
