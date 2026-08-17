@@ -1,3 +1,5 @@
+[![CI](https://github.com/AnotherFedeer/via-justa/actions/workflows/ci.yml/badge.svg)](https://github.com/AnotherFedeer/via-justa/actions/workflows/ci.yml)
+
 # Via Justa — Analisis de Documentos
 
 App para analizar documentos (contratos, facturas) con OCR e IA, detectando anomalías y cláusulas problemáticas. Proyecto universitario — sexto semestre, 2 estudiantes, 4 meses.
