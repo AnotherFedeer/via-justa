@@ -1,0 +1,28 @@
+[
+  {
+    "id": "rp-001",
+    "categoria": "transporte",
+    "monto": { "cantidad": 4500, "moneda": "COP" },
+    "ubicacion": "Valledupar, Barrio Centro",
+    "creadoEn": "2026-08-10T19:05:00Z",
+    "estado": { "tipo": "verificado", "verificadoPor": "analista-1", "promedioZona": 4200 },
+    "fotos": ["https://ejemplo.co/f/1.jpg", "https://ejemplo.co/f/2.jpg"]
+  },
+  {
+    "id": "rp-002",
+    "categoria": "arriendo",
+    "monto": { "cantidad": 1200000, "moneda": "COP" },
+    "ubicacion": "Valledupar, Barrio Villa Corelca",
+    "creadoEn": "2026-08-11T04:40:00Z",
+    "estado": { "tipo": "enviado", "enviadoEn": "2026-08-11T04:42:00Z" }
+  },
+  {
+    "id": "rp-003",
+    "categoria": "mercado",
+    "monto": { "cantidad": 8500, "moneda": "COP" },
+    "ubicacion": "Valledupar, Barrio Los Fundadores",
+    "creadoEn": "2026-08-09T13:20:00Z",
+    "estado": { "tipo": "rechazado", "motivo": "El monto no corresponde al producto reportado." },
+    "fotos": []
+  }
+]
